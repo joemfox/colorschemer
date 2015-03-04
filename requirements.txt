@@ -1,0 +1,9 @@
+Pillow==2.7.0
+cairocffi==0.6
+cffi==0.8.6
+oauthlib==0.7.2
+pycparser==2.10
+python-twitter==2.2
+requests==2.5.3
+requests-oauthlib==0.4.2
+wsgiref==0.1.2
