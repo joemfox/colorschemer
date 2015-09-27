@@ -3405,9 +3405,6 @@ bistable
 bistred
 bisulcate
 bit
-bitchier
-bitchiest
-bitchy
 biting
 bitless
 bitonal
