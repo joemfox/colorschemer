@@ -6483,9 +6483,6 @@ deadlier
 deadliest
 deadlocked
 deadly
-deaf
-deaf-and-dumb
-deaf-mute
 deafened
 deafening
 deal
@@ -19045,7 +19042,6 @@ ransacked
 ransomed
 ranunculaceous
 rapacious
-raped
 rapid
 rapid-fire
 raploch
@@ -22328,11 +22324,9 @@ stomachy
 stomatal
 stomatic
 stone
-stone-blind
 stone-broke
 stone-cold
 stone-dead
-stone-deaf
 stoned
 stoneground
 stoneless
