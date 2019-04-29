@@ -1644,7 +1644,6 @@ authoritative
 authorizable
 authorized
 authorless
-autistic
 autobiographic
 autobiographical
 autocatalytic
@@ -18406,7 +18405,6 @@ retaliative
 retaliatory
 retardant
 retardative
-retarded
 retentive
 retial
 retiary
