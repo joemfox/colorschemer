@@ -18,9 +18,9 @@ adjective3 = adjectives[random.randint(0,len(adjectives)-1)]
 color1 = colors[random.randint(0,len(colors)-1)].split(",")
 color2 = colors[random.randint(0,len(colors)-1)].split(",")
 color3 = colors[random.randint(0,len(colors)-1)].split(",")
-tweet = adjective1 + " " + color1[0] + "\n" + adjective2 + " " + color2[0] + "\n" + adjective3 + " " + color3[0]
-tweet.replace("\n","")
-print tweet
+string1 = adjective1 + " " + color1[0]
+string2 = adjective2 + " " + color2[0]
+string3 = adjective3 + " " + color3[0]
 
 rgbstr1 = struct.unpack("BBB",color1[1][1:].decode("hex")) + (1,)
 rgbstr2 = struct.unpack("BBB",color2[1][1:].decode("hex")) + (1,)
@@ -55,6 +55,16 @@ schemepng.write_to_png("test.png")
 
 rotated = Image.open("test.png").rotate(rotate*90)
 rotated.save("test.png")
+
+tweet = ""
+if rotate == 2 or rotate == 1:
+    tweet = string3 + "\n" + string2 + "\n" + string1
+    tweet.replace("\n","")
+    print tweet
+else:
+    tweet = string1 + "\n" + string2 + "\n" + string3
+    tweet.replace("\n","")
+    print tweet
 
 finalimage = open("test.png","r")
 
