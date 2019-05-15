@@ -10137,8 +10137,6 @@ hereditary
 heretical
 heretofore
 heritable
-hermaphrodite
-hermaphroditic
 hermeneutic
 hermetic
 hermitical
@@ -22919,14 +22917,11 @@ transposable
 transposed
 transpositional
 transpositive
-transsexual
 transubstantial
 transudatory
 transuranic
 transversal
 transverse
-transvestic
-transvestite
 trap-door
 trapezial
 trapeziform
