@@ -79,7 +79,6 @@ burple,#6832e3
 butterscotch,#fdb147
 toupe,#c7ac7d
 dark cream,#fff39a
-indian red,#850e04
 light lavendar,#efc0fe
 poison green,#40fd14
 baby puke green,#b6c406
