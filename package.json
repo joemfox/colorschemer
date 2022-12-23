@@ -1,0 +1,27 @@
+{
+  "name": "colorschemer",
+  "version": "0.0.1",
+  "description": "@colorschemez for cohost.org",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/joemfox/colorschemer.git"
+  },
+  "author": "@joemfox",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/joemfox/colorschemer/issues"
+  },
+  "homepage": "https://github.com/joemfox/colorschemer#readme",
+  "dependencies": {
+    "cohost": "0.0.3",
+    "d3-selection": "^3.0.0",
+    "inline-css": "^4.0.1",
+    "journalize": "^2.5.1",
+    "jsdom": "^20.0.3"
+  }
+}
