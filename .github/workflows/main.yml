@@ -1,0 +1,21 @@
+name: Chost
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '1 6 * * *' # Runs Bot every day
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - name: Use Node.js
+        uses: actions/setup-node@v1
+        with:
+          node-version: '16.x'
+      - name: Run Bot
+        run: node index.js
+        env:
+          COHOST_USER: ${{ secrets.COHOST_USER }}
+          COHOST_PW: ${{ secrets.COHOST_PW }}
