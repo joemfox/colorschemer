@@ -101,6 +101,7 @@ const WIDTH = 800;
 
     (async () => {
         let user = new cohost.User()
+        console.log(process.env.COHOST_USER)
         await user.login(process.env.COHOST_USER,process.env.COHOST_PW)
         const proj = await user.getProjects()
         const account = proj.filter(d => d.handle === 'colorschemez')[0]
