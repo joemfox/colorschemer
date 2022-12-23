@@ -14,7 +14,7 @@ jobs:
         uses: actions/setup-node@v1
       - run: npm ci
       - name: Run
-        run: npm run chost
+        run: node index
         env:
           COHOST_USER: ${{ secrets.COHOST_USER }}
           COHOST_PW: ${{ secrets.COHOST_PW }}
