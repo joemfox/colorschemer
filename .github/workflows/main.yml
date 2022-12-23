@@ -8,6 +8,7 @@ on:
 jobs:
   build:
     runs-on: ubuntu-latest
+    environment: prod
     env:
       COHOST_USER: ${{ secrets.COHOST_USER }}
       COHOST_PW: ${{ secrets.COHOST_PW }}
