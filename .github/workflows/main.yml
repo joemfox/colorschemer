@@ -15,7 +15,8 @@ jobs:
         with:
           node-version: '16.x'
       - name: Run Bot
-        run: node index.js
         env:
           COHOST_USER: ${{ secrets.COHOST_USER }}
           COHOST_PW: ${{ secrets.COHOST_PW }}
+        run: |
+          node index.js
