@@ -12,11 +12,8 @@ jobs:
       - uses: actions/checkout@v2
       - name: Use Node.js
         uses: actions/setup-node@v1
-        with:
-          node-version: '16.x'
-      - name: Run Bot
+      - name: Run
+        run: npm run chost
         env:
           COHOST_USER: ${{ secrets.COHOST_USER }}
           COHOST_PW: ${{ secrets.COHOST_PW }}
-        run: |
-          node index.js
