@@ -8,6 +8,9 @@ on:
 jobs:
   build:
     runs-on: ubuntu-latest
+    env:
+      COHOST_USER: ${{ secrets.COHOST_USER }}
+      COHOST_PW: ${{ secrets.COHOST_PW }}
     steps:
       - uses: actions/checkout@v3
       - name: Use Node.js
@@ -17,6 +20,3 @@ jobs:
       - run: npm ci
       - name: Run
         run: node index.js
-        env:
-          COHOST_USER: ${{ secrets.COHOST_USER }}
-          COHOST_PW: ${{ secrets.COHOST_PW }}
